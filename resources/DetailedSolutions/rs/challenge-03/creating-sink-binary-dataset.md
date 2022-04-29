@@ -8,9 +8,9 @@ ms.locfileid: "140765762"
 ---
 # <a name="creating-a-binary-dataset-for-sink"></a>Création d’un jeu de données binaire pour le récepteur
 
-Dans certains cas, vous voudrez peut-être copier des fichiers à partir de la source *telle quelle*. Par exemple, vous avez un ordinateur local avec des fichiers CSV et vous n’avez pas ce qu’il faut pour générer des fichiers [parquet](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format). Vous pouvez copier ces fichiers CSV *tels quels* pour les traiter plus tard.
+Dans certains cas, vous voudrez peut-être copier des fichiers à partir de la source *telle quelle*. Par exemple, vous avez un ordinateur local avec des fichiers CSV et vous n’avez pas ce qu’il faut pour générer des fichiers [parquet](https://docs.microsoft.com/fr-fr/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format). Vous pouvez copier ces fichiers CSV *tels quels* pour les traiter plus tard.
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#dataset-properties), vous allez créer un jeu de données pour décrire le format de données pour Azure Data Lake Storage Gen2 en tant que récepteur.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-data-lake-storage#dataset-properties), vous allez créer un jeu de données pour décrire le format de données pour Azure Data Lake Storage Gen2 en tant que récepteur.
 
 Créez un fichier JSON appelé `ADLS-Dataset-Binary.json` avec la structure suivante :
 

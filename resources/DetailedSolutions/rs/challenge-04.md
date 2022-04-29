@@ -17,12 +17,12 @@ Pour réussir ce défi, cette solution détaillée décrit l’option Databricks
 L’objectif est d’empêcher les validations et les envois push d’être effectués directement sur le serveur maître.
 Cela empêche par la suite le déploiement automatique du code non approuvé dans les environnements. Pour le moment, l’idée est de transformer la branche `master` en codebase pour du code stable.
 
-Pour le faire, un très bon guide est disponible dans Microsoft Docs [ici](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops).
-Plus précisément, [cette étape](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops#require-a-minimum-number-of-reviewers) vous permet d’avoir au moins un réviseur si quelqu’un veut envoyer du code au serveur maître.
+Pour le faire, un très bon guide est disponible dans Microsoft Docs [ici](https://docs.microsoft.com/fr-fr/azure/devops/repos/git/branch-policies?view=azure-devops).
+Plus précisément, [cette étape](https://docs.microsoft.com/fr-fr/azure/devops/repos/git/branch-policies?view=azure-devops#require-a-minimum-number-of-reviewers) vous permet d’avoir au moins un réviseur si quelqu’un veut envoyer du code au serveur maître.
 
 ## <a name="creating-the-databricks-workspace"></a>Création d’un espace de travail Databricks
 
-En utilisant [cette référence](https://azure.microsoft.com/en-us/resources/templates/101-databricks-workspace/), vous créez un espace de travail Databricks avec les propriétés suivantes :
+En utilisant [cette référence](https://azure.microsoft.com/fr-fr/resources/templates/101-databricks-workspace/), vous créez un espace de travail Databricks avec les propriétés suivantes :
 
 - `workspaceName` : nom de votre espace de travail
 - `pricingTier` : Standard, pour l’étendue de cette solution
@@ -66,10 +66,10 @@ Vous utilisez un principal de service pour permettre à Databricks d’accéder 
 
 Références :
 
-- [Tutoriel : Accéder aux données Data Lake Storage Gen2 avec Azure Databricks à l’aide de Spark](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark)
-- [Gérer l’accès aux ressources Azure à l’aide du contrôle RBAC et d’Azure PowerShell](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell)
-- [Octroyer l’accès aux données d’objet blob et de file d’attente Azure avec RBAC dans le Portail Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-rbac-portal#assign-rbac-roles-using-the-azure-portal)
-- [Accorder l’accès aux données blob et de file d’attente Azure avec RBAC en utilisant **PowerShell**](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad-rbac-powershell#list-available-rbac-roles)
+- [Tutoriel : Accéder aux données Data Lake Storage Gen2 avec Azure Databricks à l’aide de Spark](https://docs.microsoft.com/fr-fr/azure/storage/blobs/data-lake-storage-use-databricks-spark)
+- [Gérer l’accès aux ressources Azure à l’aide du contrôle RBAC et d’Azure PowerShell](https://docs.microsoft.com/fr-fr/azure/role-based-access-control/role-assignments-powershell)
+- [Octroyer l’accès aux données d’objet blob et de file d’attente Azure avec RBAC dans le Portail Azure](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-auth-aad-rbac-portal#assign-rbac-roles-using-the-azure-portal)
+- [Accorder l’accès aux données blob et de file d’attente Azure avec RBAC en utilisant **PowerShell**](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-auth-aad-rbac-powershell#list-available-rbac-roles)
 
 Vous pouvez le faire avec une seule commande :
 

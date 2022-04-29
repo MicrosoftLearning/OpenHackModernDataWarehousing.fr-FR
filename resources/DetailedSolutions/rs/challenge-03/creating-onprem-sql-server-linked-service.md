@@ -8,7 +8,7 @@ ms.locfileid: "140765786"
 ---
 # <a name="creating-the-on-premises-sql-server-linked-service-to-use-the-self-hosted-integration-runtime"></a>Création du service lié SQL Server local pour utiliser le runtime d’intégration auto-hébergé
 
-Tout comme pour les services liés précédents que vous avez créés, en utilisant [cette documentation](https://docs.microsoft.com/en-us/azure/data-factory/connector-sql-server#linked-service-properties), créez un fichier appelé `SQL-Server-LinkedService.json` avec la structure suivante :
+Tout comme pour les services liés précédents que vous avez créés, en utilisant [cette documentation](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-sql-server#linked-service-properties), créez un fichier appelé `SQL-Server-LinkedService.json` avec la structure suivante :
 
 ```json
 {

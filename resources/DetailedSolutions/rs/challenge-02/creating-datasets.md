@@ -14,7 +14,7 @@ Lorsque vous créez un jeu de données, vous en définissez un qui représente l
 
 > Pour nommer des jeux de données, vous pouvez utiliser uniquement des lettres, des chiffres et des « _ ».
 
-En utilisant [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-dataset), créez un fichier JSON appelé `CloudSales-Dataset.json` avec cette structure :
+En utilisant [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-powershell#create-a-dataset), créez un fichier JSON appelé `CloudSales-Dataset.json` avec cette structure :
 
 ```json
 {
@@ -69,7 +69,7 @@ Vous devez vous assurer que les choses suivantes sont différentes :
 
 ## <a name="03---create-the-dataset-for-the-movies-catalog-on-cosmosdb"></a>03 - Créer le jeu de données pour le catalogue Movies sur CosmosDB
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#dataset-properties), vous allez créer un jeu de données pour définir le format de données de la base de données Movies sur Cosmos DB.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-cosmos-db#dataset-properties), vous allez créer un jeu de données pour définir le format de données de la base de données Movies sur Cosmos DB.
 
 Créez un fichier JSON nommé `Movies-Dataset.json` avec la structure suivante :
 
@@ -108,7 +108,7 @@ Set-AzDataFactoryV2Dataset `
 
 ## <a name="04---create-the-sink-dataset-for-azure-sql-database-tables"></a>04 - Créer le jeu de données récepteur pour des tables Azure SQL Database
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#dataset-properties), vous allez créer un jeu de données pour décrire le format de données pour Azure Data Lake Storage Gen2 comme récepteur pour les fichiers parquet. Ce jeu de données va être utilisé pour copier les tables Azure SQL Database.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-data-lake-storage#dataset-properties), vous allez créer un jeu de données pour décrire le format de données pour Azure Data Lake Storage Gen2 comme récepteur pour les fichiers parquet. Ce jeu de données va être utilisé pour copier les tables Azure SQL Database.
 
 > Pour le cas Southridge, qui copie les données d’Azure SQL, nous pouvons déjà copier les données au format Parquet, ce qui facilitera leur chargement pour leur transformation ultérieure.
 
@@ -170,7 +170,7 @@ Set-AzDataFactoryV2Dataset `
 
 ## <a name="05---create-the-sink-dataset-for-the-movies-catalog"></a>05 - Créer le jeu de données récepteur pour le catalogue Movies
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#dataset-properties), vous allez créer un jeu de données pour décrire le format de données pour Azure Data Lake Storage Gen2 en tant que récepteur pour les fichiers JSON.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-data-lake-storage#dataset-properties), vous allez créer un jeu de données pour décrire le format de données pour Azure Data Lake Storage Gen2 en tant que récepteur pour les fichiers JSON.
 
 Créez un fichier JSON appelé `ADLS-Dataset-JSON.json` avec la structure suivante :
 

@@ -12,7 +12,7 @@ Maintenant que vous avez des jeux de données correctement configurés, vous pou
 
 ## <a name="01---create-the-pipeline-to-move-the-cloudsales-sql-database"></a>01 - Créer le pipeline pour déplacer la base de données SQL CloudSales
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline), vous allez créer un pipeline à l’aide de PowerShell.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline), vous allez créer un pipeline à l’aide de PowerShell.
 
 Créez un fichier appelé `CloudSales-Pipeline.json` avec la structure suivante :
 
@@ -125,7 +125,7 @@ Vous remarquez des noms de table comme `[dbo].[Table1]`. Remplacez-les par les n
 
 > Par ailleurs, concernant `parameters:items`, ce pipeline s’appuie sur une instruction très importante : `ForEach`. **ForEach** est une instruction de boucle qui répète une ou plusieurs activités (dans ce cas, `Copy_Rows`) sur chaque élément donné.
 >
-> Pour plus d’informations sur l’activité `ForEach`, consultez [ce lien](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity).
+> Pour plus d’informations sur l’activité `ForEach`, consultez [ce lien](https://docs.microsoft.com/fr-fr/azure/data-factory/control-flow-for-each-activity).
 
 Une fois le fichier correctement modifié, exécutez les commandes PowerShell ci-dessous pour créer le pipeline sur Data Factory :
 
@@ -166,7 +166,7 @@ Vous remarquez des noms de table comme `[dbo].[Table1]`. Remplacez-les par les n
 
 ## <a name="03---create-the-pipeline-to-move-the-movies-cosmosdb-data"></a>03 - Créer le pipeline pour déplacer les données CosmosDB Movies
 
-Avec la référence pour créer un pipeline trouvé [ici](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline), vous allez créer un nouveau pipeline pour copier les données d’une collection CosmosDB dans le lac de données.
+Avec la référence pour créer un pipeline trouvé [ici](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-powershell#create-a-pipeline), vous allez créer un nouveau pipeline pour copier les données d’une collection CosmosDB dans le lac de données.
 
 Commencez par créer un fichier JSON appelé `Movies-Pipeline.json` avec la structure suivante :
 
@@ -231,7 +231,7 @@ properties:activities:<copy task>:typeProperties:source:nestingSeparator
 
 Elle doit être `""` (vide). Dans le cas contraire, si vous ne la définissez pas explicitement, on supposera qu’il s’agit de la valeur par défaut, qui est un point (`"."`).
 
-Lorsque vous copiez les données *telles quelles*, avoir `nestingSeparator` défini sur un `"."` ne fonctionnera pas sur ce pipeline. Pour plus d’informations, consultez [cette documentation](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#import-or-export-json-documents) :
+Lorsque vous copiez les données *telles quelles*, avoir `nestingSeparator` défini sur un `"."` ne fonctionnera pas sur ce pipeline. Pour plus d’informations, consultez [cette documentation](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-cosmos-db#import-or-export-json-documents) :
 
 > *Lorsque vous utilisez la création d’activités, ne spécifiez pas la section structure (également appelée schéma) dans le jeu de données Azure Cosmos DB. Ne spécifiez pas non plus la propriété `nestingSeparator` dans la source ou le récepteur Azure Cosmos DB dans l’activité Copy. Lorsque vous importez depuis ou exportez vers des fichiers JSON, dans le jeu de données du magasin de fichiers correspondant, spécifiez le type de format JsonFormat et configurez `filePattern` comme décrit dans la section JSON format. Ensuite, ne spécifiez pas la section structure et ignorez le reste des paramètres de format.*
 
@@ -254,4 +254,4 @@ Maintenant que votre pipeline est créé, répétez les instructions [ci-dessus]
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - Copier des données depuis ou vers Azure Cosmos DB (API SQL) à l’aide d’Azure Data Factory
-    - [Propriétés de l’activité Copy](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#copy-activity-properties)
+    - [Propriétés de l’activité Copy](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-cosmos-db#copy-activity-properties)

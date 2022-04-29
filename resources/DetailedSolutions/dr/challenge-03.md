@@ -20,7 +20,7 @@ Pour le moment, nous restons concentrés sur l’extraction des données dans le
 Le processus est presque identique au travail effectué pour extraire les données de la base de données CloudStreaming de Southridge Video.
 La principale différence est que l’instance SQL Server est « locale » (pour les contraintes de ce labo, sur une machine virtuelle Azure), plutôt que dans Azure SQL.
 
-Azure Data Factory prend en charge l’extraction de sources locales via l’installation d’un [Runtime d’intégration auto-hébergé](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime#installation-best-practices).
+Azure Data Factory prend en charge l’extraction de sources locales via l’installation d’un [Runtime d’intégration auto-hébergé](https://docs.microsoft.com/fr-fr/azure/data-factory/create-self-hosted-integration-runtime#installation-best-practices).
 
 Commencez par ajouter un jeu de données SQL Server.
 
@@ -33,7 +33,7 @@ Lorsque vous créez le nouveau service lié à partir de l’onglet Connexion, c
 Suivez les invites pour créer un nouveau runtime d’intégration auto-hébergé.
 Cela implique l’installation du runtime et l’inscription avec une clé d’authentification une fois l’installation terminée.
 
-Lors de l’utilisation du [format parquet](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format), il est également nécessaire d’installer JRE 8 (Java Runtime Environment) 64 bits ou OpenJDK sur votre machine de runtime d’intégration.
+Lors de l’utilisation du [format parquet](https://docs.microsoft.com/fr-fr/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format), il est également nécessaire d’installer JRE 8 (Java Runtime Environment) 64 bits ou OpenJDK sur votre machine de runtime d’intégration.
 
 > REMARQUE : Dans les scénarios de production, le runtime d’intégration auto-hébergé ne doit pas être installé sur le serveur de base de données lui-même.
 Sous peine d’implications sur la sécurité et les performances.

@@ -27,7 +27,7 @@ Le déploiement de l’environnement du lab OpenHack Modern Data Warehousing com
 
 ## <a name="quickstart"></a>Démarrage rapide
 
-1. Attribuez les variables `$sqlpwd` et `$vmpwd` dans votre session PowerShell sous forme de **chaînes sécurisées**. Veillez à utiliser un mot de passe fort pour les deux. Suivez[ce lien](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) pour voir les exigences de mot de passe de la machine virtuelle et [ce lien](https://docs.microsoft.com/en-us/sql/relational-databases/security/password-policy?view=sql-server-2017#password-complexity) pour SQL Server.
+1. Attribuez les variables `$sqlpwd` et `$vmpwd` dans votre session PowerShell sous forme de **chaînes sécurisées**. Veillez à utiliser un mot de passe fort pour les deux. Suivez[ce lien](https://docs.microsoft.com/fr-fr/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) pour voir les exigences de mot de passe de la machine virtuelle et [ce lien](https://docs.microsoft.com/fr-fr/sql/relational-databases/security/password-policy?view=sql-server-2017#password-complexity) pour SQL Server.
 
     ```powershell
     $sqlpwd = "0p3nH4ckD4t4!" | ConvertTo-SecureString -AsPlainText -Force
@@ -40,7 +40,7 @@ Le déploiement de l’environnement du lab OpenHack Modern Data Warehousing com
     $containerSAS = "TheContainerSASYouHave" | ConvertTo-SecureString -AsPlainText -Force
     ```
 
-1. Vérifiez que vous avez installé le [module Az](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-1.8.0).
+1. Vérifiez que vous avez installé le [module Az](https://docs.microsoft.com/fr-fr/powershell/azure/new-azureps-module-az?view=azps-1.8.0).
 
 1. Exportez la liste des abonnements de l’équipe OpenHack et les informations d’identification associées de la [classe Opsgility](https://aka.ms/ohadmin). Pour ce faire, effectuez la procédure suivante :  
     - Visiter la Vue lab correspondant à votre classe  

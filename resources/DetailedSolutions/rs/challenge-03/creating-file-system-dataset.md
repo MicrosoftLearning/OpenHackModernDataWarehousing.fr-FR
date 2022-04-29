@@ -8,7 +8,7 @@ ms.locfileid: "140765831"
 ---
 # <a name="creating-a-dataset-for-file-system-sources"></a>Création d’un jeu de données pour les sources de système de fichiers
 
-En utilisant [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-file-system#dataset-properties), vous créez un jeu de données pour la source de système de fichiers.
+En utilisant [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-file-system#dataset-properties), vous créez un jeu de données pour la source de système de fichiers.
 
 Créez un fichier JSON nommé `File-System-Dataset.json` avec la structure suivante :
 

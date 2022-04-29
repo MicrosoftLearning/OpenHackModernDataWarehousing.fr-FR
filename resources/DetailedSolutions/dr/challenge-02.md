@@ -9,14 +9,14 @@ ms.locfileid: "140765856"
 ## <a name="challenge-2-lights-camera-action"></a>Défi 2 : Lumières, caméra, action
 
 Le deuxième défi consiste à extraire les premières données Southridge des bases de données Azure SQL et d’une collection Cosmos DB.
-L’objectif de ce défi est de rendre l’équipe opérationnelle avec une solution de déplacement de données. La solution recommandée consiste à utiliser [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/) pour copier les données des systèmes sources dans le lac de données **telles quelles**, autrement dit avec **le moins possible de transformation, de nettoyage ou de traitement**.
+L’objectif de ce défi est de rendre l’équipe opérationnelle avec une solution de déplacement de données. La solution recommandée consiste à utiliser [Azure Data Factory](https://docs.microsoft.com/fr-fr/azure/data-factory/) pour copier les données des systèmes sources dans le lac de données **telles quelles**, autrement dit avec **le moins possible de transformation, de nettoyage ou de traitement**.
 
 > REMARQUE : Même dans ce défi, nous pouvons déjà commencer à voir les avantages de la centralisation des données dans un lac de données d’entreprise.
 Même si toutes les données de ce défi sont dans Azure, il y a un mélange de données relationnelles dans Azure SQL et de données non relationnelles stockées au format JSON dans une collection de documents Cosmos DB.
 
 ### <a name="creating-an-azure-data-factory"></a>Création d’une ressource Azure Data Factory
 
-Les [démarrages rapides](https://docs.microsoft.com/en-us/azure/data-factory/#5-minute-quickstarts) de la [documentation du produit](https://docs.microsoft.com/en-us/azure/data-factory/) contiennent tous les détails pour créer la ressource Azure Data Factory via le [portail Azure](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-a-data-factory) ou [PowerShell](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell#create-a-data-factory).
+Les [démarrages rapides](https://docs.microsoft.com/fr-fr/azure/data-factory/#5-minute-quickstarts) de la [documentation du produit](https://docs.microsoft.com/fr-fr/azure/data-factory/) contiennent tous les détails pour créer la ressource Azure Data Factory via le [portail Azure](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-portal#create-a-data-factory) ou [PowerShell](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-powershell#create-a-data-factory).
 
 > REMARQUE : Les démarrages rapides associés ci-dessus contiennent des informations supplémentaires sur la création de pipelines dans Data Factory. Dans le cadre de cette section de la solution OpenHack, reportez-vous uniquement à la section « Créer une fabrique de données » du démarrage rapide.
 
@@ -149,7 +149,7 @@ Publiez le pipeline et déclenchez-le.
 ![ADF - Déclencher maintenant](./images/adf-trigger-now.png)
 
 Vérifiez que les données existent dans le lac de données à l’emplacement cible.
-Pour ce faire, vous pouvez utiliser l’[Explorateur Stockage Azure](https://azure.microsoft.com/en-us/features/storage-explorer/).
+Pour ce faire, vous pouvez utiliser l’[Explorateur Stockage Azure](https://azure.microsoft.com/fr-fr/features/storage-explorer/).
 
 ![Explorateur Stockage Azure - Movies](./images/storage-explorer-southridge-raw-movies.png)
 
@@ -263,7 +263,7 @@ Publiez le pipeline et déclenchez-le.
 ![ADF - Déclencher maintenant](./images/adf-trigger-now.png)
 
 Vérifiez que les données existent dans le lac de données à l’emplacement cible.
-Pour ce faire, vous pouvez utiliser l’[Explorateur Stockage Azure](https://azure.microsoft.com/en-us/features/storage-explorer/).
+Pour ce faire, vous pouvez utiliser l’[Explorateur Stockage Azure](https://azure.microsoft.com/fr-fr/features/storage-explorer/).
 
 ![Affichage des données CloudSales dans le lac de données](./images/storage-explorer-southridge-raw-cloudsales.png)
 

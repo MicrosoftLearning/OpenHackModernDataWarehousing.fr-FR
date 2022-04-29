@@ -35,7 +35,7 @@ Vous pouvez créer une fabrique de données Azure de deux manières, par exemple
 
 Dans ce tutoriel, vous créez une fabrique de données en utilisant **PowerShell**.
 
-Des instructions détaillées sont disponibles [ici](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell)
+Des instructions détaillées sont disponibles [ici](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-powershell)
 
 > Si vous utilisez un autre système d’exploitation que Windows, vous pouvez tirer parti d’Azure Cloud Shell pour exécuter les commandes ci-dessous.
 
@@ -63,7 +63,7 @@ Une fois que Data Lake Storage Gen2 est activé sur le compte de stockage, nous 
 Suivez les étapes ci-dessous pour le faire avec PowerShell.
 
 Vous avez également besoin de références de configuration de service lié pour les différents types de services liés que vous créez dans ce tutoriel.
-Gardez la documentation sur le [type de jeu de données](https://docs.microsoft.com/en-us/azure/data-factory/concepts-datasets-linked-services#dataset-type) à portée de main pour vérifier si la source ou le récepteur que vous voulez configurer est pris en charge, et pour voir des exemples.
+Gardez la documentation sur le [type de jeu de données](https://docs.microsoft.com/fr-fr/azure/data-factory/concepts-datasets-linked-services#dataset-type) à portée de main pour vérifier si la source ou le récepteur que vous voulez configurer est pris en charge, et pour voir des exemples.
 
 - [01 - Création des services liés](challenge-02/creating-linked-services.md)
     - Avant de créer des jeux de données, nous avons besoin de services liés pour nous connecter aux sources de données et aux récepteurs.
@@ -84,17 +84,17 @@ Gardez la documentation sur le [type de jeu de données](https://docs.microsoft.
 ### <a name="data-factory-creation"></a>Création de la fabrique de données
 
 - D’après ce que j’ai pu voir, il n’y a pas de prise en charge de la gestion d’ADF avec Azure CLI.
-- Le menu à gauche dans [ce lien](https://docs.microsoft.com/en-us/azure/data-factory/#5-minute-quickstarts) présente des titres incorrects
+- Le menu à gauche dans [ce lien](https://docs.microsoft.com/fr-fr/azure/data-factory/#5-minute-quickstarts) présente des titres incorrects
     - Pour _« Créer une fabrique de données »_ , il ne doit y avoir que deux titres :
         - Interface utilisateur ou
         - Azure PowerShell
     - Les autres doivent être, par exemple, _« Créer un pipeline - (objet) »_
-- [Ce tutoriel](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-powershell) ne vous montre pas seulement comment créer une fabrique de données Azure, mais aussi comment créer un exemple complet de **déplacement de données**. Ce serait bien d’avoir un exemple clair pour la **Création d’une fabrique de données**.
+- [Ce tutoriel](https://docs.microsoft.com/fr-fr/azure/data-factory/quickstart-create-data-factory-powershell) ne vous montre pas seulement comment créer une fabrique de données Azure, mais aussi comment créer un exemple complet de **déplacement de données**. Ce serait bien d’avoir un exemple clair pour la **Création d’une fabrique de données**.
     - C’est parce que dans ce tutoriel, on crée d’abord le compte de stockage qui contient les données copiées, puis on apprend comment créer la fabrique de données. Ce peut être un peu déroutant, car les utilisateurs vont créer le compte de stockage simplement parce qu’ils suivent ce tutoriel, alors qu’ils n’en ont peut-être pas besoin.
 
 ### <a name="linked-services"></a>Services liés
 
-- [Ce tutoriel](https://docs.microsoft.com/en-us/azure/data-factory/tutorial-bulk-copy) ne partage avec les utilisateurs aucune référence qui leur permette d’obtenir d’autres exemples de différents types de services liés, par ex., ADLS au lieu de SQL DW.
+- [Ce tutoriel](https://docs.microsoft.com/fr-fr/azure/data-factory/tutorial-bulk-copy) ne partage avec les utilisateurs aucune référence qui leur permette d’obtenir d’autres exemples de différents types de services liés, par ex., ADLS au lieu de SQL DW.
 - La session Azure Cloud Shell expire trop rapidement quand elle est exécutée sous un autre onglet. Cela a un impact si l’utilisateur a défini des variables pour assurer la cohérence des noms dans l’ensemble du tutoriel. Ces variables perdent leur valeur si la session est supprimée.
 
 ### <a name="datasets"></a>Groupes de données

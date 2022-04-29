@@ -80,7 +80,7 @@ def mountFileSystem(containerName, storageAccountName):
 > - déclare la fonction `mountFileSystem` avec deux paramètres :
 >     - `containerName` : nom du système de fichiers sur le stockage ADLS Gen2
 >     - `storageAccountName` : nom du compte de stockage ADLS Gen2
-> - définit la variable `configs` qui définit les paramètres d’accès du stockage ADLS Gen2 à travers le notebook qui s’exécute sur le cluster. Pour plus d’informations sur cette configuration, consultez [ce lien](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-use-databricks-spark#create-a-file-system-and-mount-it).
+> - définit la variable `configs` qui définit les paramètres d’accès du stockage ADLS Gen2 à travers le notebook qui s’exécute sur le cluster. Pour plus d’informations sur cette configuration, consultez [ce lien](https://docs.microsoft.com/fr-fr/azure/storage/blobs/data-lake-storage-use-databricks-spark#create-a-file-system-and-mount-it).
 >     - Notez les espaces réservés suivants :
 >         - `<Service Principal Application ID>`
 >         - `<Service Principal Application Secret (or password)>`

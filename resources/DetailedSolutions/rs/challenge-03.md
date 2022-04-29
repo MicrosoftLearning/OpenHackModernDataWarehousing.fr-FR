@@ -19,7 +19,7 @@ Les objectifs de ce défi sont les suivants :
 
 Les fichiers CSV et la base de données SQL sont hébergés sur des machines virtuelles *locales* qui, pour l’objectif d’OpenHack, sont toutes des machines virtuelles Azure.
 
-Pour pouvoir extraire des données de sources locales en utilisant Azure Data Factory, nous devons tirer parti des [runtimes d’intégration auto-hébergés](https://docs.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime).
+Pour pouvoir extraire des données de sources locales en utilisant Azure Data Factory, nous devons tirer parti des [runtimes d’intégration auto-hébergés](https://docs.microsoft.com/fr-fr/azure/data-factory/create-self-hosted-integration-runtime).
 
 > *Le runtime d’intégration (IR) représente l’infrastructure de calcul utilisée par Azure Data Factory pour fournir des capacités d’intégration de données entre différents environnements réseau.*
 
@@ -33,9 +33,9 @@ Les étapes de base que vous devez effectuer pour copier les données de sources
     - [Service lié d’instance SQL Server locale](challenge-03/creating-onprem-sql-server-linked-service.md)
 - Créer le jeu de données
     - [Jeu de données pour les sources de système de fichiers](challenge-03/creating-file-system-dataset.md)
-        - Pour le jeu de données récepteur de ce système de fichiers, vous pouvez créer un **[Jeu de données binaire](challenge-03/creating-sink-binary-dataset.md)** afin de copier les fichiers *en l’état*, car la machine locale n’a peut-être pas les [exigences](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format) nécessaires pour générer des fichiers Parquet.
+        - Pour le jeu de données récepteur de ce système de fichiers, vous pouvez créer un **[Jeu de données binaire](challenge-03/creating-sink-binary-dataset.md)** afin de copier les fichiers *en l’état*, car la machine locale n’a peut-être pas les [exigences](https://docs.microsoft.com/fr-fr/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format) nécessaires pour générer des fichiers Parquet.
     - [Jeu de données pour l’instance SQL Server locale](challenge-03/creating-onprem-sql-server-dataset.md)
-        - Pour le jeu de données récepteur de cette instance SQL Server locale, vous pouvez utiliser le jeu de données récepteur **JSON** que vous avez créé pour copier le catalogue de films. C’est parce que la machine locale n’a peut-être pas les [exigences]([requirements](https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format)) nécessaires pour générer des fichiers Parquet.
+        - Pour le jeu de données récepteur de cette instance SQL Server locale, vous pouvez utiliser le jeu de données récepteur **JSON** que vous avez créé pour copier le catalogue de films. C’est parce que la machine locale n’a peut-être pas les [exigences]([requirements](https://docs.microsoft.com/fr-fr/azure/data-factory/supported-file-formats-and-compression-codecs#parquet-format)) nécessaires pour générer des fichiers Parquet.
 - Créer le pipeline
     - [Pipeline pour l’instance SQL Server locale](challenge-03/creating-onprem-sql-server-pipeline.md)
     - [Pipeline pour les sources de système de fichiers](challenge-03/creating-file-system-pipeline.md)

@@ -12,12 +12,12 @@ ms.locfileid: "140765817"
 
 Pour résoudre les défis 1 à 3, vous devez installer les outils suivants :
 
-- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
-- [Module Az PowerShell](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-1.7.0)
+- [Azure CLI](https://docs.microsoft.com/fr-fr/cli/azure/install-azure-cli?view=azure-cli-latest)
+- [Module Az PowerShell](https://docs.microsoft.com/fr-fr/powershell/azure/install-az-ps?view=azps-1.7.0)
 
 ## <a name="creating-adls-gen2"></a>Création d’une instance ADLS Gen2
 
-Utilisez [ce guide](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli) pour créer un compte de stockage avec Azure Data Lake Storage Gen2.
+Utilisez [ce guide](https://docs.microsoft.com/fr-fr/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli) pour créer un compte de stockage avec Azure Data Lake Storage Gen2.
 
 ```bash
 # Create variables to have consistency throughout the tutorial
@@ -45,6 +45,6 @@ az storage account create \
 
 ## <a name="potential-feedbacks"></a>Commentaires potentiels
 
-- [Ce tutoriel](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli) est intitulé *« Démarrage rapide : Créer un compte de stockage Azure Data Lake Storage Gen2 »* . Pour être plus précis sur le fait qu’ADLS Gen2 est une **fonctionnalité** de compte de stockage, nous suggérons de l’appeler :
+- [Ce tutoriel](https://docs.microsoft.com/fr-fr/azure/storage/blobs/data-lake-storage-quickstart-create-account#create-an-account-using-azure-cli) est intitulé *« Démarrage rapide : Créer un compte de stockage Azure Data Lake Storage Gen2 »* . Pour être plus précis sur le fait qu’ADLS Gen2 est une **fonctionnalité** de compte de stockage, nous suggérons de l’appeler :
 
     > Démarrage rapide : Créer un compte stockage Azure avec Data Lake Storage Gen2 activé

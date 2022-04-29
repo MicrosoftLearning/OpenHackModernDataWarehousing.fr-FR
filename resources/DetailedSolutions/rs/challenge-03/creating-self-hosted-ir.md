@@ -49,7 +49,7 @@ Notez une de ces clés pour l’utiliser par la suite sur la machine virtuelle.
 
 ## <a name="03---download-install-and-register-the-self-hosted-ir-on-the-virtual-machine"></a>03 - Télécharger, installer et inscrire l’IR auto-hébergé sur la machine virtuelle
 
-Une fois que vous avez créé l’IR et que vous avez la clé d’authentification, vous pouvez télécharger le programme d’installation sur la machine virtuelle et commencer à l’installer. Suivez [ce lien](https://www.microsoft.com/en-us/download/details.aspx?id=39717) pour accéder à la page de téléchargement.
+Une fois que vous avez créé l’IR et que vous avez la clé d’authentification, vous pouvez télécharger le programme d’installation sur la machine virtuelle et commencer à l’installer. Suivez [ce lien](https://www.microsoft.com/fr-fr/download/details.aspx?id=39717) pour accéder à la page de téléchargement.
 
 Une fois l’installation effectuée, une fenêtre comme la suivante s’ouvre automatiquement :
 

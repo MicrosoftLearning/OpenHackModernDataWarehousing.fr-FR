@@ -8,7 +8,7 @@ ms.locfileid: "140765788"
 ---
 # <a name="creating-a-dataset-for-an-on-premises-sql-server-database"></a>Création d’un jeu de données pour une base de données SQL Server locale
 
-En utilisant [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-sql-server#dataset-properties), créez un fichier JSON nommé `SQL-Server-Dataset.json` avec cette structure :
+En utilisant [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-sql-server#dataset-properties), créez un fichier JSON nommé `SQL-Server-Dataset.json` avec cette structure :
 
 ```json
 {

@@ -10,7 +10,7 @@ ms.locfileid: "140765841"
 
 ## <a name="01---configure-linked-services-for-azure-sql-databases"></a>01 - Configurer des services liés pour les bases de données Azure SQL
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-sql-database#linked-service-properties), vous allez créer un service lié Data Factory pour avoir Azure SQL comme source de données.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-sql-database#linked-service-properties), vous allez créer un service lié Data Factory pour avoir Azure SQL comme source de données.
 
 Créez un fichier JSON nommé `CloudSales-LinkedService.json` avec la structure suivante :
 
@@ -77,7 +77,7 @@ Set-AzDataFactoryV2LinkedService `
 
 ## <a name="02---configure-a-linked-service-for-the-cosmos-db-as-a-source"></a>02 - Configurer un service lié pour Cosmos DB en tant que source
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-cosmos-db#linked-service-properties), vous allez créer un service lié pour avoir Cosmos DB comme source de données.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-cosmos-db#linked-service-properties), vous allez créer un service lié pour avoir Cosmos DB comme source de données.
 
 Tout d’abord, vous devez obtenir la `connectionString` complète CosmosDB auprès d’Azure.
 Pour cela, utilisez la commande Azure CLI suivante :
@@ -165,7 +165,7 @@ Set-AzDataFactoryV2LinkedService `
 
 ## <a name="03---configure-a-linked-service-for-the-data-lake-as-a-sink"></a>03 - Configurer un service lié pour le lac de données comme récepteur
 
-Avec [cette référence](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-data-lake-storage#linked-service-properties), vous allez créer un service lié pour avoir le lac de données que vous avez créé comme récepteur pour le pipeline.
+Avec [cette référence](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-azure-data-lake-storage#linked-service-properties), vous allez créer un service lié pour avoir le lac de données que vous avez créé comme récepteur pour le pipeline.
 
 Tout d’abord, vous avez besoin de la clé du compte Stockage pour permettre à Data Factory de lire et d’écrire dans ADLS Gen2. Pour ce faire, obtenez la `accountKey` pour ADLS Gen2 à l’aide de la commande suivante :
 

@@ -10,9 +10,9 @@ ms.locfileid: "140765849"
 
 En utilisant les références ci-dessous :
 
-- [Informations de référence sur le format JSON du pipeline](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#pipeline-json)
-- [Activité ForEach dans Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity)
-- [Propriétés de l’activité Copy](https://docs.microsoft.com/en-us/azure/data-factory/connector-file-system#copy-activity-properties)
+- [Informations de référence sur le format JSON du pipeline](https://docs.microsoft.com/fr-fr/azure/data-factory/concepts-pipelines-activities#pipeline-json)
+- [Activité ForEach dans Azure Data Factory](https://docs.microsoft.com/fr-fr/azure/data-factory/control-flow-for-each-activity)
+- [Propriétés de l’activité Copy](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-file-system#copy-activity-properties)
 
 Vous créez un pipeline pour copier les données du système de fichiers local vers le lac de données Azure.
 

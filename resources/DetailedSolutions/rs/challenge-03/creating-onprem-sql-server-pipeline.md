@@ -10,9 +10,9 @@ ms.locfileid: "140765765"
 
 En utilisant les références ci-dessous :
 
-- [Informations de référence sur le format JSON du pipeline](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#pipeline-json)
-- [Activité ForEach dans Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity)
-- [Propriétés de l’activité Copy pour SQL Server](https://docs.microsoft.com/en-us/azure/data-factory/connector-sql-server#copy-activity-properties)
+- [Informations de référence sur le format JSON du pipeline](https://docs.microsoft.com/fr-fr/azure/data-factory/concepts-pipelines-activities#pipeline-json)
+- [Activité ForEach dans Azure Data Factory](https://docs.microsoft.com/fr-fr/azure/data-factory/control-flow-for-each-activity)
+- [Propriétés de l’activité Copy pour SQL Server](https://docs.microsoft.com/fr-fr/azure/data-factory/connector-sql-server#copy-activity-properties)
 
 Vous créez un pipeline pour copier les données de la base de données SQL Server locale vers le lac de données Azure.
 
@@ -136,7 +136,7 @@ Vous remarquez qu’il y a des noms de table de type `[dbo].[Table1]`. Remplacez
 
 > Par ailleurs, concernant `parameters:items`, ce pipeline s’appuie sur une instruction très importante : `ForEach`. **ForEach** est une instruction de boucle qui répète une ou plusieurs activités (dans ce cas, `Copy_Rows`) sur chaque élément donné.
 >
-> Pour plus d’informations sur l’activité `ForEach`, consultez [ce lien](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-for-each-activity).
+> Pour plus d’informations sur l’activité `ForEach`, consultez [ce lien](https://docs.microsoft.com/fr-fr/azure/data-factory/control-flow-for-each-activity).
 
 Une fois le fichier correctement modifié, exécutez les commandes PowerShell ci-dessous pour créer le pipeline sur Data Factory :
 
